@@ -667,7 +667,7 @@ msgid "Shop by Category"
 msgstr ""
 
 #: inc/storefront-template-functions.php:609
-msgid "New In"
+msgid "New"
 msgstr ""
 
 #: inc/storefront-template-functions.php:622

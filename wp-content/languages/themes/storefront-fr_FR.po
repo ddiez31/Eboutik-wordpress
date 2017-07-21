@@ -56,8 +56,8 @@ msgid "We Recommend"
 msgstr "Nous recommandons"
 
 #: inc/storefront-template-functions.php:580
-msgid "New In"
-msgstr "Nouveautés dans"
+msgid "New"
+msgstr "Nouveautés"
 
 #: inc/storefront-template-functions.php:539
 msgid "Shop by Category"

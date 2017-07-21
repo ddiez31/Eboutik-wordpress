@@ -606,7 +606,7 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 			$args = apply_filters( 'storefront_recent_products_args', array(
 				'limit' 			=> 4,
 				'columns' 			=> 4,
-				'title'				=> __( 'New In', 'storefront' ),
+				'title'				=> __( 'Nouveautés', 'storefront' ),
 			) );
 
 			$shortcode_content = storefront_do_shortcode( 'recent_products', apply_filters( 'storefront_recent_products_shortcode_args', array(
@@ -614,7 +614,7 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 				'columns'  => intval( $args['columns'] ),
 			) ) );
 
-			/**
+			/**phps
 			 * Only display the section if the shortcode returns products
 			 */
 			if ( false !== strpos( $shortcode_content, 'product' ) ) {
